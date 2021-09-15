@@ -1,5 +1,5 @@
-from country import get_links
-from md5_create import md5_create
+from app.country import get_links
+from app.md5_create import md5_create
 import json
 
 with open("countries.json") as f:
